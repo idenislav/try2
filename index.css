@@ -1,4 +1,43 @@
 .header {
     border: 2px solid blue;
     height: 300px;
+    flex: 2;
+}
+.purple {
+    border: dashed purple;
+    flex: 2;
+    display: flex;
+    
+}
+header, div, h1, button, main, p {
+    font-size: 25px;
+    border: double green;
+    border: thick 10px;
+    border-style: ridge;
+    padding: 10.cm;
+    border-width: 5px;
+    border-radius: 10ch;
+    flex: 1;
+    display: flex;
+}
+
+.practice {
+    border: solid orange;
+}
+
+body {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    flex-direction: row;
+    display: flex;
+    flex: 1;
+    border: 5px solid; 
+    height: 5px;
+}
+.try{
+    height: 0.7in;
 }
